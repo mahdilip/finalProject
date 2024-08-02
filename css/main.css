@@ -1,6 +1,14 @@
 .headerLogo{
     width: 100px;
 }
-.bgPurpel{
+.purpleHeader{
     background-color: rgb(142, 74, 142);
+}
+.textColor1{
+    color: white;
+}
+.navbar-collapse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
