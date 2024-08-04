@@ -138,18 +138,89 @@
   background-color: #8e4a8e;
 }
 
+/* aboutUsPage */
+.imageMargin {
+  margin-left: -4rem;
+}
+
+.abotMargin-1 {
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.abotMargin-2 {
+  margin-top: 4rem;
+}
+
+.abotMargin-3 {
+  margin-left: 4rem;
+}
+
+.abotMargin-4 {
+  margin-left: 3rem;
+}
 
 
 
+/* For 375px */
+@media screen and (max-width: 375px) {
+
+  .fontResize-1 {
+    font-size: 5px;
+  }
+
+  .fontResize-2 {
+    font-size: 2px;
+  }
+}
+
+/* For 425px */
+@media screen and (max-width: 425px) {
+  .unsetMargin {
+    margin: unset;
+  }
+
+  .fontResize-1 {
+    font-size: 15px;
+  }
+
+  .fontResize-2 {
+    font-size: 8px;
+  }
+
+}
 
 
+/* For 768px */
 @media screen and (max-width: 768px) {
   /* nav */
   /* .collapse .navbar-nav li a:not(:first-child) {
         display: none;
     } */
 
+  /* aboutUsPage */
+  .unsetMargin {
+    margin: unset;
+  }
+
+  .textMargin {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+  }
+  .textMargin-1 {
+    margin-left: 1rem;
+  }
+
+  .textMargin-2 {
+    margin-right: 1rem;
+  }
+
 }
+
+
+
+
 
 @media (max-width: 575.98px) {
   .p-desktop {
