@@ -15,7 +15,9 @@
   flex-direction: column;
   justify-content: center;
 }
-
+.navColor1{
+  color: green;
+}
 /* Main */
 .mainImage {
   background-image: url(/images/banner1.png);
